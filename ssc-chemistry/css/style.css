@@ -86,9 +86,6 @@ nav .nav li {
     font-size: 21px;
   }
 }
-.navbar-toggler-icon {
-  color: white !important;
-}
 @media print {
   h2 {
       font-size: 14px;
