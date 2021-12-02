@@ -4,15 +4,26 @@
   width:100%;
   font-family:Open Sans;
   font-style:italic;
-  color: black;
+  color: #FFFFFF;
+  background-color: #083045 !important;
   padding:1.2em 30px 1.2em 75px;
   border-left:8px solid #78C0A8 ;
   line-height:1.6;
   position: relative;
   background:#EDEDED;
+  border-top: 1px solid #FA935B;
+  border-bottom: 1px solid #FA935B;
+  border-right: 1px solid #FA935B;;
 }
 .border-left {
   border-left: 1px dashed #FA935B !important;
+}
+.border-bottom {
+  border-bottom: 1px solid black !important;
+  padding-bottom: 10px;
+}
+.text-white {
+  color: lightgray;
 }
 h1 {
   font-size: 30px;
@@ -89,10 +100,10 @@ nav .nav li {
   background:#EDEDED;
   }
   h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
   h2 {
-    font-size: 24px;
+    font-size: 21px;
   }
   h3 {
     font-size: 21px;
