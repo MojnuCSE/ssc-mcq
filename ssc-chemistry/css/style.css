@@ -17,6 +17,8 @@
 .online-exam {
   display: block;
   text-align: center;
+  margin-top: 5pxpx;
+  margin-bottom: 5px;
 }
 a {
   text-decoration: none;
