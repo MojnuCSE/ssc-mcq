@@ -11,6 +11,18 @@
   position: relative;
   background:#EDEDED;
 }
+.border-left {
+  border-left: 1px dashed #FA935B !important;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 24px;
+}
 .navbar-area {
     padding-left: 1%;
     background-color: #141A46 !important; 
@@ -19,7 +31,7 @@
 }
 ol {
   list-style-type: upper-alpha;
-  font-size: 1.35em;
+  font-size: 1.2em;
 }
 
 .bohupodi {
@@ -85,8 +97,14 @@ nav .nav li {
   h3 {
     font-size: 21px;
   }
+  .border-left {
+    border-left: none;
+  }
 }
 @media print {
+  h1 {
+    font-size: 18px;
+  }
   h2 {
       font-size: 14px;
   }
@@ -98,7 +116,6 @@ nav .nav li {
   ol {
       font-size: 12px;
   }
-
   .responsive,
   .center {
       height: 80px;
