@@ -12,7 +12,7 @@
   position: relative;
   border-top: 1px solid #FA935B;
   border-bottom: 1px solid #FA935B;
-  border-right: 1px solid #FA935B;;
+  border-right: 1px solid #FA935B;
 }
 .online-exam {
   display: block;
@@ -107,6 +107,7 @@ nav .nav li {
   }
   h1 {
     font-size: 24px;
+    text-align: left;
   }
   h2 {
     font-size: 21px;
@@ -119,8 +120,13 @@ nav .nav li {
   }
 }
 @media print {
+  body{
+    margin: 30px;
+    padding: 0;
+  }
   h1 {
     font-size: 18px;
+    text-align: center;
   }
   h2 {
       font-size: 14px;
@@ -138,7 +144,14 @@ nav .nav li {
       height: 80px;
       width: 80px;
   }
-  blockquote {
+  .dis-none{
     display: none;
+  }
+  .d-none {
+    display: none;
+  }
+  .width-50 {
+    width: 49%;
+    float: left;
   }
 }
