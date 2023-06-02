@@ -14,9 +14,6 @@
   border-bottom: 1px solid #FA935B;
   border-right: 1px solid #FA935B;
 }
-.supsub {position: absolute}
-.subscript {color: green; display:block; position:relative; left:2px; top: -5px}
-.superscript {color: red; display:block; position:relative; left:2px; top: -5px}
 
 .online-exam {
   display: block;
