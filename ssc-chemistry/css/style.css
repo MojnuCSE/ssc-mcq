@@ -104,6 +104,20 @@ nav .nav li {
   height: 300px;
   margin: 0 auto;
 }
+supsub {
+    display: inline-block;
+}
+
+.supsub sup,
+.supsub sub {
+    position: relative;
+    display: block;
+    font-size: .5em;
+    line-height: 1.2;
+}
+
+.supsub sub {
+    top: 
 @media only screen and (max-width: 600px) {
 .blockquote {
   font-size: 16px;
